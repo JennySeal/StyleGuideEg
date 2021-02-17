@@ -187,7 +187,7 @@ footer              {width: 90%;
 /* This is the section for Tablets */
 
 @media only screen and (max-width: 1300px){
-header      {background-image: url("/heroImageTablet.JPG");
+header      {background-image: url("./heroImageTablet.JPG");
             background-position: bottom center;
             height: 85vh;}
 header h2   {top: 55vh;}
