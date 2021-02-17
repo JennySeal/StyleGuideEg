@@ -1,0 +1,245 @@
+*               {margin: 0;
+                padding: 0;
+                box-sizing: border-box;}
+
+body            {background-color: ghostwhite;}
+
+main            {background-color: #e8e7e5;
+                border: 5px solid #d93527;
+                width: 98%;
+                height: 98%;
+                border-radius: 10px;
+                margin: 0 auto;}
+
+header          {width: 96%;
+                border-radius: 1%;
+                height: 95vh;
+                margin: 10px auto;
+                background-image: url("./heroImage.JPG");
+                background-size: 100%;
+                background-repeat: no-repeat;
+                background-position: bottom center;
+                padding-bottom: 5%;
+                background-color: #e8e7e5;
+                border: 5px solid #d93527;}
+
+h1              {font-family: "Cabin Sketch";
+                color: #d93527;
+                font-size: 4em;
+                font-weight: bolder;
+                background-color: ghostwhite;
+                border-radius: 5px;
+                }
+
+header h1       {line-height: 1.5;}
+
+#littleSeal     {float: left;
+                margin: 2% 2%;
+                width: 50px;
+                height: 50px;
+                background-color: #e8e7e5;
+                padding: 5px;
+                border: 5px solid #d93527;
+                border-radius: 5px;}     
+
+h2             {font-family: Truculenta;
+                color: #ffb227;
+                text-align: right;
+                font-size: 3.5em;
+                text-shadow:2px 2px 2px black;}
+
+header h2       {position: relative;
+                top: 65vh;
+                margin-right: 2%;}
+
+#Typography, #colourScheme, #features, #structure
+             {  margin: 2% 2%;
+                padding: 2%;
+                font-family: Heebo;
+                border: 5px solid #d93527;
+                border-radius: 10px;
+                background-color: ghostwhite;}
+
+h3              {font-family: "Cabin Sketch";
+                 color: black;
+                 font-size: 2em;}
+
+#BodyText        {font-family: Heebo;
+                font-size: 1.2em;
+                float: right;
+                position: relative;
+                width: 20%;
+                top: -40px;}
+
+#colourFlex, #featureFlex {display:inline-flex;
+                 width: 90%;}
+
+#colourOne        {width: 20%;
+                  height: 175px;
+                  background-color: #d93527;
+                  text-align: center;
+                  color: white;
+                  border-radius: 10px;
+                  margin: 1%;
+                  padding: 2%;}
+#colourTwo        {width: 20%;
+                  border-radius: 10px;
+                  margin: 1%;
+                  height: 175px;
+                  background-color: #ffb227;
+                  text-align: center;
+                  padding: 2%;
+                  color: white;
+                  text-shadow: 1px 1px 1px black;}
+#colourThree       {width: 20%;
+                   height: 175px;
+                   background-color: #e8e7e5;
+                   border-radius: 10px;
+                   margin: 1%;              
+                   text-align: center;
+                   padding: 2%;
+                   color: #d93527}
+#colourFour       {width: 20%;
+                    height: 175px;
+                    background-color: black;
+                    border-radius: 10px;
+                    margin: 1%;
+                    padding: 2%;              
+                    text-align: center;
+                    color: ghostwhite}
+#colourFive       {width: 20%;
+                   height: 175px;
+                   background-color: ghostwhite;
+                   border-radius: 10px;
+                   margin: 1%;
+                   padding: 2%;              
+                   text-align: center;
+                   color: black;
+                   border: 2px solid #e8e7e5;}
+#featureOne       {width: 20%;
+                    height: auto;
+                    background-color: #e8e7e5;
+                    border-radius: 10px;
+                    margin: 2%;              
+                    text-align: center;
+                    border: 5px solid #d93527;
+                    padding: 1%;}
+#featureTwo       {width: 120px;
+                  height: 120px;
+                  background-color:#ffb227;
+                  border-radius: 50%;
+                  margin: 2%;              
+                  text-align: center;
+                  padding: 1%;
+                  color: ghostwhite;}
+#featureThree     {width: 5%;
+                    text-align: center;
+                    margin: 2%;              
+                }
+#featureFive       {width: 120px;
+                    height: 120px;
+                    background-image: url("./flowers.JPG");
+                    background-size: cover;
+                    border-radius: 50%;
+                    margin: 3%;}
+
+nav                 {margin: 2% 2%;
+                    display: block;
+                    width: 90%;
+                    padding: 2%;
+                    height: 150px;
+                    border: 5px solid #d93527;
+                    border-radius: 10px;
+                    }
+.DropDown           {float: left;
+                    width: 90%;}
+.DropLinks           {display: none;
+                    position: relative;
+                    top: 20px;
+                    width: 200px;
+                    border-radius: 5px;
+}
+.DropLinks a        {display: block;
+                    background-color: #d93527;
+                    border: 5px solid ghostwhite;
+                    padding: 2%;
+                    text-align: right;
+                    text-decoration: none;
+                    color: ghostwhite;
+                    border-radius: 10px;
+                    font-family: Heebo;
+                    }
+nav a:hover         {color:#d93527;
+                    background-color:ghostwhite;
+                    text-decoration: none;}
+.DropDown:hover .DropLinks {display: block;}                   
+#littleSeal:hover   {transform:rotate(180deg)}  
+
+li                  {list-style-type: disk;
+                    text-indent: -15px;
+                    margin-left: 20px;}
+
+footer              {width: 90%;
+                    border-top: 5px solid #d93527;
+                    text-align: right;
+                    margin: 2% 2%;}
+
+/* This is the section for Tablets */
+
+@media only screen and (max-width: 1300px){
+header      {background-image: url("/heroImageTablet.JPG");
+            background-position: bottom center;
+            height: 85vh;}
+header h2   {top: 55vh;}
+}
+
+
+@media only screen and (max-width: 1000px){
+#colourOne, #colourTwo, #colourThree, #colourFour, #colourFive 
+                {height: auto;}
+header          {height: 75vh;}
+header h2       {top: 57vh;}
+li              {list-style-type: none;
+                text-align: center;
+                margin: 0% auto};
+}
+
+@media only screen and (max-width: 840px){
+header          {height: 55vh;
+                background-position: bottom center;
+                background-image: url("./heroImageMobile.JPG");}
+header h2       {top: 40vh;}    
+h1              {font-size: 3em;}
+
+}
+@media only screen and (max-width: 550px){
+h1              {font-size:200%;
+                margin: 0 2%;
+                background-color:ghostwhite;
+                width: 97%;}
+header          {background-position: bottom center;
+                height: 85vh;}
+h2              {text-align: center;
+                font-size: 2em;
+                margin: 1% 1%;
+                top: 20vh;}
+h3              {font-size: 1.1em;
+                text-align: center;}
+header h2       {top: 35vh;}
+header          {height: 50vh;}
+#colourFlex, #featureFlex 
+                {display:flex;
+                flex-direction: column;
+                width: 100%;
+                align-items: center;}    
+#colourOne, #colourTwo, #colourThree, #colourFour, #colourFive 
+                {width: 70%;
+                margin: 1% 1%;}
+#featureOne, #featureTwo, #featureFive
+                {margin: 1% auto;}
+#featureOne      {width: 50%;}
+#featureThree   {position: relative;
+                left: -15px;
+                margin-top: 4%;} 
+.DropDown:hover .DropLinks {display: inline-flex;}
+}
